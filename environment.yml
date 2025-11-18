@@ -1,0 +1,9 @@
+name: churn_prediction_ds
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - scikit-learn
+  - jupyter
