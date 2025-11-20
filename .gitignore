@@ -1,0 +1,6 @@
+.ipynb_checkpoints/ 
+__pycache__/ 
+.conda/ 
+venv/ 
+*.lock 
+final_churn_model_*.pkl 
