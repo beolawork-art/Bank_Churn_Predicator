@@ -54,11 +54,16 @@ The analysis clearly identified the key features driving customer churn. **The s
 
 ### Model Performance
 
-,Predicted: Stayed (0),Predicted: Left (1),Total
-Actual: Stayed (0),"1,543 (TN)",64 (FP),"1,607"
-Actual: Left (1),212 (FN),181 (TP),393
-
 <img width="658" height="545" alt="download" src="https://github.com/user-attachments/assets/f959f3dd-df8a-4693-af54-a3eb15782328" />
+
+
+| | **Predicted: Stayed (0)** | **Predicted: Left (1)** | **Total Actual** |
+| :--- | :--- | :--- | :--- |
+| **Actual: Stayed (0)** | **1,543 (TN)** | 64 (FP) | 1,607 |
+| **Actual: Left (1)** | 212 (FN) | **181 (TP)** | 393 |
+
+| | | | **2,000 Total** |
+
 
 The model's high **Recall of 46%** means that the bank can now detect almost half of the customers who are going to leave, providing a huge advantage in their retention efforts compared to random guessing.
 
